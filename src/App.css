@@ -1,0 +1,953 @@
+
+/** CSSViewer 1.1 Instagram Style */
+body {
+  /* Color & Background */
+	background-attachment: scroll;
+	background-color: rgb(250, 250, 250);
+	background-image: none;
+	background-position: 0% 0%;
+	background-repeat: repeat;
+	color: rgb(38, 38, 38);
+
+  max-height: 100vh !important;
+}
+
+.jumbotron {
+  /* Color & Background */
+	background-attachment: scroll;
+	background-color: rgb(250, 250, 250);
+	background-image: none;
+	background-position: 0% 0%;
+	background-repeat: repeat;
+	color: rgb(38, 38, 38);
+  margin: 0px;
+  max-height: 100% !important;
+}
+
+.App {
+	/* Font & Text */
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	letter-spacing: normal;
+	line-height: 18px;
+	text-decoration: rgb(38, 38, 38);
+	text-align: start;
+	text-indent: 0px;
+	text-transform: none;
+	white-space: normal;
+	word-spacing: 0px;
+	/* Miscellaneous */
+	overflow: visible;
+	cursor: auto;
+	visibility: visible;
+}
+
+h1.logo {
+  /* Font & Text */
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  letter-spacing: normal;
+  line-height: 18px;
+  text-decoration: rgb(38, 38, 38);
+  text-align: start;
+  text-indent: 110%;
+  text-transform: none;
+  vertical-align: baseline;
+  white-space: nowrap;
+  word-spacing: 0px;
+  /* Color & Background */
+  background-attachment: scroll;
+  background-color: rgba(0, 0, 0, 0);
+  background-image: url("./ig-logo.svg");
+  background-size: 173px, 110px;
+  background-repeat: no-repeat;
+  color: rgb(38, 38, 38);
+  /* Box */
+  height: 51px;
+  width: 175px;
+  max-height: none;
+  min-height: auto;
+  max-width: none;
+  min-width: auto;
+  /* Miscellaneous */
+  overflow: hidden;
+  cursor: auto;
+  visibility: visible;
+}
+
+div.ig-container {
+  /* Font & Text */
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  letter-spacing: normal;
+  line-height: 18px;
+  text-decoration: rgb(38, 38, 38);
+  /* Color & Background */
+  background-attachment: scroll;
+  background-color: rgb(255, 255, 255);
+  background-image: none;
+  background-position: 0% 0%;
+  background-repeat: repeat;
+  color: rgb(38, 38, 38);
+  /* Box */
+  padding-bottom: 2rem;
+  width: 350px;
+  border: 1px solid #DBDBDB;
+  max-height: none;
+  min-height: auto;
+  max-width: none;
+  min-width: auto;
+  /* List */
+  list-style-image: none;
+  list-style-type: disc;
+  list-style-position: outside;
+}
+
+div.ig-input-container{
+  /* Font & Text */
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  letter-spacing: normal;
+  line-height: 18px;
+  text-decoration: rgb(38, 38, 38);
+  text-align: start;
+  text-indent: 0px;
+  text-transform: none;
+  vertical-align: baseline;
+  white-space: normal;
+  word-spacing: 0px;
+  /* Color & Background */
+  background-attachment: scroll;
+  background-color: rgb(250, 250, 250);
+  background-image: none;
+  background-position: 0% 0%;
+  background-repeat: repeat;
+  border: 1px solid #DBDBDB;
+  color: rgb(38, 38, 38);
+  /* Box */
+  height: 38px;
+  width: 268px;
+  max-height: none;
+  min-height: auto;
+  max-width: none;
+  min-width: auto;
+  display: flex;
+  flex-flow: column-reverse;
+  position: relative;
+  border-radius: 3px;
+  cursor: text !important;
+}
+
+div.ig-btn-container{
+  /* Font & Text */
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  letter-spacing: normal;
+  line-height: 18px;
+  text-decoration: rgb(38, 38, 38);
+  text-align: start;
+  text-indent: 0px;
+  text-transform: none;
+  vertical-align: baseline;
+  white-space: normal;
+  word-spacing: 0px;
+  /* Color & Background */
+  background-attachment: scroll;
+  background-color: rgb(250, 250, 250);
+  background-image: none;
+  background-position: 0% 0%;
+  background-repeat: repeat;
+  color: rgb(38, 38, 38);
+  /* Box */
+  height: 35px;
+  width: 268px;
+  max-height: none;
+  min-height: auto;
+  max-width: none;
+  min-width: auto;
+  display: flex;
+  flex-flow: column-reverse;
+  position: relative;
+  border-radius: 3px;
+}
+
+.ig-input-label {
+  color: #8e8e8e;
+  color: rgba(var(--f52,142,142,142),1);
+  font-size: 12px;
+  height: 36px;
+  line-height: 36px;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  padding: 0px 0 0 8px;
+  transition: all 150ms;
+  opacity: 0.5;
+  user-select: none;
+  cursor: text !important;
+}
+
+.ig-input:focus + .ig-input-label,
+.ig-input:valid + .ig-input-label {
+  font-size: 10px;
+  transform: translate3d(0, -26%, 0);
+  opacity: 1;
+  border-color: black;
+}
+
+.ig-input-container:focus-within {
+  border: 1px solid rgba(168,168,168) !important;
+}
+
+.ig-input{
+  background: #fafafa;
+  background: rgba(var(--b3f,250,250,250),1);
+  border: 0;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 0 auto;
+  -ms-flex: 1 0 auto;
+  flex: 0 0 auto;
+  margin: 0;
+  outline: 0;
+  overflow: hidden;
+  padding: 9px 0 3px 9px;
+  font-size: 12px;
+  text-overflow: ellipsis;
+}
+
+.ig-input-span {
+  color: #8e8e8e;
+  color: rgba(var(--f52,142,142,142),1);
+  font-size: 12px;
+  height: 36px;
+  line-height: 36px;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+button.ig-btn {
+	/* Font & Text */
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 600;
+	letter-spacing: normal;
+	line-height: 18px;
+	text-decoration: rgb(255, 255, 255);
+	text-align: center;
+	text-indent: 0px;
+	text-transform: none;
+	vertical-align: baseline;
+	white-space: normal;
+	word-spacing: 0px;
+	/* Color & Background */
+	background-attachment: scroll;
+	background-color: rgb(0, 149, 246);
+	background-image: none;
+	background-position: 0px 0px;
+	background-repeat: repeat;
+	color: rgb(255, 255, 255);
+	/* Box */
+	height: 35px;
+	width: 268px;
+	max-height: none;
+	min-height: auto;
+	max-width: none;
+	min-width: auto;
+	/* Positioning */
+	position: relative;
+	top: 0px;
+	bottom: 0px;
+	right: 0px;
+	left: 0px;
+	float: none;
+	display: block;
+	clear: none;
+	z-index: auto;
+	/* List */
+	list-style-image: none;
+	list-style-type: disc;
+	list-style-position: outside;
+	/* Table */
+	border-collapse: separate;
+	border-spacing: 0px 0px;
+	caption-side: top;
+	empty-cells: show;
+	table-layout: auto;
+	/* Miscellaneous */
+	overflow: visible;
+	cursor: pointer;
+	visibility: visible;
+	/* Effects */
+	transform: none;
+	outline-offset: 0px;
+	box-sizing: border-box;
+	resize: none;
+	text-shadow: none;
+	text-overflow: ellipsis;
+	word-wrap: normal;
+	box-shadow: none;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+	border-bottom-left-radius: 4px;
+	border-bottom-right-radius: 4px;
+}
+
+/** Custom ones */
+
+.vertical-center {
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+
+  display: flex;
+  align-items: center;
+}
+
+input:required {
+  box-shadow:none !important;
+}
+input:invalid {
+  box-shadow:0 0 0px black !important;
+}
+
+/*This is modifying the btn-primary colors but you could create your own .btn-something class as well*/
+.btn-primary {
+  color: #fff;
+  background-color: rgb(0, 149, 246) !important;
+  border-color: rgb(0, 149, 246) !important; /*set the color you want here*/
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+  color: #fff;
+  background-color: rgb(0, 149, 246) !important;
+  border-color: rgb(0, 149, 246)!important; /*set the color you want here*/
+}
+
+.btn-primary:disabled {
+  background-color: rgba(178, 223, 252) !important;
+  border-color: rgba(178, 223, 252) !important;
+}
+
+.btn-primary:focus,
+.btn-primary:active{
+    box-shadow:none !important;
+    outline:0px !important;
+}
+
+div.ig-splitter {
+	/* Font & Text */
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	letter-spacing: normal;
+	line-height: 18px;
+	text-decoration: rgb(38, 38, 38);
+	text-align: start;
+	text-indent: 0px;
+	text-transform: none;
+	vertical-align: baseline;
+	white-space: normal;
+	word-spacing: 0px;
+	/* Color & Background */
+	background-attachment: scroll;
+	background-color: rgba(0, 0, 0, 0);
+	background-image: none;
+	background-position: 0% 0%;
+	background-repeat: repeat;
+	color: rgb(38, 38, 38);
+	/* Box */
+	height: 15px;
+	width: 268px;
+	max-height: none;
+	min-height: auto;
+	max-width: none;
+	min-width: auto;
+	/* Positioning */
+	position: relative;
+	top: 0px;
+	bottom: 0px;
+	right: 0px;
+	left: 0px;
+	float: none;
+	display: flex;
+	clear: none;
+	z-index: auto;
+	/* List */
+	list-style-image: none;
+	list-style-type: disc;
+	list-style-position: outside;
+	/* Table */
+	border-collapse: separate;
+	border-spacing: 0px 0px;
+	caption-side: top;
+	empty-cells: show;
+	table-layout: auto;
+	/* Miscellaneous */
+	overflow: visible;
+	cursor: auto;
+	visibility: visible;
+	/* Effects */
+	transform: none;
+	outline-offset: 0px;
+	box-sizing: border-box;
+	resize: none;
+	text-shadow: none;
+	text-overflow: clip;
+	word-wrap: normal;
+	box-shadow: none;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+}
+
+div.ig-splitter-left {
+	/* Font & Text */
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	letter-spacing: normal;
+	line-height: 18px;
+	text-decoration: rgb(38, 38, 38);
+	text-align: start;
+	text-indent: 0px;
+	text-transform: none;
+	vertical-align: baseline;
+	white-space: normal;
+	word-spacing: 0px;
+	/* Color & Background */
+	background-attachment: scroll;
+	background-color: rgb(219, 219, 219);
+	background-image: none;
+	background-position: 0% 0%;
+	background-repeat: repeat;
+	color: rgb(38, 38, 38);
+	/* Box */
+	height: 1px;
+	width: 98px;
+	max-height: none;
+	min-height: auto;
+	max-width: none;
+	min-width: auto;
+	/* Positioning */
+	position: relative;
+	top: 6.3px;
+	bottom: -6.3px;
+	right: 0px;
+	left: 0px;
+	float: none;
+	display: flex;
+	clear: none;
+	z-index: auto;
+	/* List */
+	list-style-image: none;
+	list-style-type: disc;
+	list-style-position: outside;
+	/* Table */
+	border-collapse: separate;
+	border-spacing: 0px 0px;
+	caption-side: top;
+	empty-cells: show;
+	table-layout: auto;
+	/* Miscellaneous */
+	overflow: visible;
+	cursor: auto;
+	visibility: visible;
+	/* Effects */
+	transform: none;
+	outline-offset: 0px;
+	box-sizing: border-box;
+	resize: none;
+	text-shadow: none;
+	text-overflow: clip;
+	word-wrap: normal;
+	box-shadow: none;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+}
+
+div.ig-splitter-text {
+	/* Font & Text */
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+	font-size: 13px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 600;
+	letter-spacing: normal;
+	line-height: 15px;
+	text-decoration: rgb(142, 142, 142);
+	text-align: start;
+	text-indent: 0px;
+	text-transform: uppercase;
+	vertical-align: baseline;
+	white-space: normal;
+	word-spacing: 0px;
+	/* Color & Background */
+	background-attachment: scroll;
+	background-color: rgba(0, 0, 0, 0);
+	background-image: none;
+	background-position: 0% 0%;
+	background-repeat: repeat;
+	color: rgb(142, 142, 142);
+	/* Box */
+	height: 15px;
+	max-height: none;
+	min-height: auto;
+	max-width: none;
+	min-width: auto;
+	/* Positioning */
+	position: relative;
+	top: 0px;
+	bottom: 0px;
+	right: 0px;
+	left: 0px;
+	float: none;
+	display: flex;
+	clear: none;
+	z-index: auto;
+	/* List */
+	list-style-image: none;
+	list-style-type: disc;
+	list-style-position: outside;
+	/* Table */
+	border-collapse: separate;
+	border-spacing: 0px 0px;
+	caption-side: top;
+	empty-cells: show;
+	table-layout: auto;
+	/* Miscellaneous */
+	overflow: visible;
+	cursor: auto;
+	visibility: visible;
+	/* Effects */
+	transform: none;
+	outline-offset: 0px;
+	box-sizing: border-box;
+	resize: none;
+	text-shadow: none;
+	text-overflow: clip;
+	word-wrap: normal;
+	box-shadow: none;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+div.ig-splitter-right {
+	/* Font & Text */
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	letter-spacing: normal;
+	line-height: 18px;
+	text-decoration: rgb(38, 38, 38);
+	text-align: start;
+	text-indent: 0px;
+	text-transform: none;
+	vertical-align: baseline;
+	white-space: normal;
+	word-spacing: 0px;
+	/* Color & Background */
+	background-attachment: scroll;
+	background-color: rgb(219, 219, 219);
+	background-image: none;
+	background-position: 0% 0%;
+	background-repeat: repeat;
+	color: rgb(38, 38, 38);
+	/* Box */
+	height: 1px;
+	width: 98px;
+	max-height: none;
+	min-height: auto;
+	max-width: none;
+	min-width: auto;
+	/* Positioning */
+	position: relative;
+	top: 6.3px;
+	bottom: -6.3px;
+	right: 0px;
+	left: 0px;
+	float: none;
+	display: flex;
+	clear: none;
+	z-index: auto;
+	/* List */
+	list-style-image: none;
+	list-style-type: disc;
+	list-style-position: outside;
+	/* Table */
+	border-collapse: separate;
+	border-spacing: 0px 0px;
+	caption-side: top;
+	empty-cells: show;
+	table-layout: auto;
+	/* Miscellaneous */
+	overflow: visible;
+	cursor: auto;
+	visibility: visible;
+	/* Effects */
+	transform: none;
+	outline-offset: 0px;
+	box-sizing: border-box;
+	resize: none;
+	text-shadow: none;
+	text-overflow: clip;
+	word-wrap: normal;
+	box-shadow: none;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+}
+
+div.ig-splitter-container{
+  margin: auto;
+}
+
+button .fb-button {
+	/* Font & Text */
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 600;
+	letter-spacing: normal;
+	line-height: 18px;
+	text-decoration: rgb(0, 149, 246);
+	text-align: center;
+	text-indent: 0px;
+	text-transform: none;
+	vertical-align: baseline;
+	white-space: normal;
+	word-spacing: 0px;
+	/* Color & Background */
+	background-attachment: scroll;
+	background-color: rgba(0, 0, 0, 0);
+	background-image: none;
+	background-position: 0px 0px;
+	background-repeat: repeat;
+	color: rgb(0, 149, 246);
+	/* Box */
+	height: 19.5px;
+	width: 268px;
+	max-height: none;
+	min-height: auto;
+	max-width: none;
+	min-width: auto;
+	/* Positioning */
+	position: relative;
+	top: 0px;
+	bottom: 0px;
+	right: 0px;
+	left: 0px;
+	float: none;
+	display: block;
+	clear: none;
+	z-index: auto;
+	/* List */
+	list-style-image: none;
+	list-style-type: disc;
+	list-style-position: outside;
+	/* Table */
+	border-collapse: separate;
+	border-spacing: 0px 0px;
+	caption-side: top;
+	empty-cells: show;
+	table-layout: auto;
+	/* Miscellaneous */
+	overflow: visible;
+	cursor: pointer;
+	visibility: visible;
+	/* Effects */
+	transform: none;
+	outline-offset: 0px;
+	box-sizing: border-box;
+	resize: none;
+	text-shadow: none;
+	text-overflow: ellipsis;
+	word-wrap: normal;
+	box-shadow: none;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+}
+
+
+
+span.fb-logo {
+	/* Font & Text */
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 600;
+	letter-spacing: normal;
+	line-height: 18px;
+	text-decoration: rgb(0, 149, 246);
+	text-align: center;
+	text-indent: 0px;
+	text-transform: none;
+	vertical-align: baseline;
+	white-space: normal;
+	word-spacing: 0px;
+	/* Color & Background */
+	background-attachment: scroll;
+	background-color: rgba(0, 0, 0, 0);
+	background-image: url("./icons.png");
+	background-position: -414px -259px;
+	background-repeat: no-repeat;
+	color: rgb(0, 149, 246);
+	/* Box */
+	height: 16px;
+	width: 16px;
+	max-height: none;
+	min-height: 0px;
+	max-width: none;
+	min-width: 0px;
+	/* Positioning */
+	position: relative;
+	top: 3px;
+	bottom: -3px;
+	right: 0px;
+	left: 0px;
+	float: none;
+	display: inline-block;
+	clear: none;
+	z-index: auto;
+	/* List */
+	list-style-image: none;
+	list-style-type: disc;
+	list-style-position: outside;
+	/* Table */
+	border-collapse: separate;
+	border-spacing: 0px 0px;
+	caption-side: top;
+	empty-cells: show;
+	table-layout: auto;
+	/* Miscellaneous */
+	overflow: visible;
+	cursor: pointer;
+	visibility: visible;
+	/* Effects */
+	transform: none;
+	outline-offset: 0px;
+	box-sizing: content-box;
+	resize: none;
+	text-shadow: none;
+	text-overflow: clip;
+	word-wrap: normal;
+	box-shadow: none;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+}
+
+.fb-text {
+	/* Font & Text */
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 600;
+	letter-spacing: normal;
+	line-height: 18px;
+	text-decoration: rgb(56, 81, 133);
+	text-align: center;
+	text-indent: 0px;
+	text-transform: none;
+	vertical-align: baseline;
+	white-space: normal;
+	word-spacing: 0px;
+	/* Color & Background */
+	background-attachment: scroll;
+	background-color: rgba(0, 0, 0, 0);
+	background-image: none;
+	background-position: 0% 0%;
+	background-repeat: repeat;
+	color: rgb(56, 81, 133);
+	/* Box */
+	height: auto;
+	width: auto;
+	max-height: none;
+	min-height: 0px;
+	max-width: none;
+	min-width: 0px;
+	/* Positioning */
+	position: static;
+	top: auto;
+	bottom: auto;
+	right: auto;
+	left: auto;
+	float: none;
+	display: inline;
+	clear: none;
+	z-index: auto;
+	/* List */
+	list-style-image: none;
+	list-style-type: disc;
+	list-style-position: outside;
+	/* Table */
+	border-collapse: separate;
+	border-spacing: 0px 0px;
+	caption-side: top;
+	empty-cells: show;
+	table-layout: auto;
+	/* Miscellaneous */
+	overflow: visible;
+	cursor: pointer;
+	visibility: visible;
+	/* Effects */
+	transform: none;
+	outline-offset: 0px;
+	box-sizing: content-box;
+	resize: none;
+	text-shadow: none;
+	text-overflow: clip;
+	word-wrap: normal;
+	box-shadow: none;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+  text-decoration: none !important;
+}
+
+.fb-text:hover {
+  color: rgb(56, 81, 133) !important;
+}
+
+.fb-container {
+  margin: auto;
+  width: 268px;
+}
+
+a.reset-link {
+	/* Font & Text */
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	letter-spacing: normal;
+	line-height: 14px;
+	text-decoration: rgb(0, 55, 107);
+	text-align: center;
+	text-indent: 0px;
+	text-transform: none;
+	vertical-align: baseline;
+	white-space: normal;
+	word-spacing: 0px;
+	/* Color & Background */
+	background-attachment: scroll;
+	background-color: rgba(0, 0, 0, 0);
+	background-image: none;
+	background-position: 0% 0%;
+	background-repeat: repeat;
+	color: rgb(0, 55, 107);
+	/* Box */
+	height: 14px;
+	width: 348px;
+	max-height: none;
+	min-height: auto;
+	max-width: none;
+	min-width: auto;
+}
+
+p.error-text {
+	/* Font & Text */
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	letter-spacing: normal;
+	line-height: 18px;
+	text-decoration: rgb(237, 73, 86);
+	text-align: center;
+	text-indent: 0px;
+	text-transform: none;
+	vertical-align: baseline;
+	white-space: normal;
+	word-spacing: 0px;
+	/* Color & Background */
+	background-attachment: scroll;
+	background-color: rgba(0, 0, 0, 0);
+	background-image: none;
+	background-position: 0% 0%;
+	background-repeat: repeat;
+	color: rgb(237, 73, 86);
+	/* Box */
+	height: 36px;
+	width: 268px;
+	max-height: none;
+	min-height: auto;
+	max-width: none;
+	min-width: auto;
+	/* Positioning */
+	position: static;
+	top: auto;
+	bottom: auto;
+	right: auto;
+	left: auto;
+	float: none;
+	display: block;
+	clear: none;
+	z-index: auto;
+	/* List */
+	list-style-image: none;
+	list-style-type: disc;
+	list-style-position: outside;
+	/* Table */
+	border-collapse: separate;
+	border-spacing: 0px 0px;
+	caption-side: top;
+	empty-cells: show;
+	table-layout: auto;
+	/* Miscellaneous */
+	overflow: visible;
+	cursor: auto;
+	visibility: visible;
+	/* Effects */
+	transform: none;
+	outline-offset: 0px;
+	box-sizing: content-box;
+	resize: none;
+	text-shadow: none;
+	text-overflow: clip;
+	word-wrap: normal;
+	box-shadow: none;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	padding-bottom: 0px import !important;
+	margin-bottom: 0px !important;
+}
